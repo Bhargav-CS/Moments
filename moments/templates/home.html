@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Moments</title>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1>Welcome to Moments</h1>
+        <form action="{% url 'face_rec' %}">
+            <button type="submit">moments</button>
+        </form>
+    </div>
+</body>
+</html>
